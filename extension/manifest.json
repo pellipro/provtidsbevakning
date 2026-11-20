@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Provtidsbevakning för Trafikverket",
-  "version": "1.1.0",
-  "description": "Larmar när en ledig provtid dyker upp i Trafikverkets bokning. Bokar ingenting, du bokar själv.",
+  "version": "1.1.1",
+  "description": "Får ett larm när en ledig tid för förarprov dyker upp i Trafikverkets bokning. Bokar inget åt dig, du bokar själv.",
   "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
   "content_scripts": [
     {

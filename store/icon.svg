@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+    <clipPath id="card"><rect x="16" y="22" width="90" height="90" rx="14"/></clipPath>
+  </defs>
+  <!-- kalenderblad: 96x96-ytan med 16 px marginal enligt Chrome Web Stores riktlinjer -->
+  <g filter="url(#sh)">
+    <rect x="16" y="22" width="90" height="90" rx="14" fill="#ffffff"/>
+    <g clip-path="url(#card)"><rect x="16" y="22" width="90" height="24" fill="#d7262b"/></g>
+    <rect x="16" y="22" width="90" height="90" rx="14" fill="none" stroke="#c9ced6" stroke-width="1.5"/>
+  </g>
+  <!-- ringar -->
+  <rect x="36" y="14" width="8" height="18" rx="4" fill="#3a4654"/>
+  <rect x="78" y="14" width="8" height="18" rx="4" fill="#3a4654"/>
+  <!-- ratt -->
+  <g transform="translate(61 79)" fill="none" stroke="#3a4654" stroke-linecap="round">
+    <circle r="22" stroke-width="7"/>
+    <circle r="5.5" fill="#3a4654" stroke="none"/>
+    <path d="M-21 -3 Q0 4 21 -3" stroke-width="6"/>
+    <path d="M0 5 L0 21" stroke-width="6"/>
+  </g>
+  <!-- klocka/notis -->
+  <g transform="translate(98 30)" filter="url(#sh)">
+    <circle r="16" fill="#ffb400" stroke="#ffffff" stroke-width="3"/>
+    <path d="M-7 4 L-7 -1 A7 7 0 0 1 7 -1 L7 4 L9 6.5 L-9 6.5 Z" fill="#3a4654"/>
+    <circle cy="9.5" r="2.6" fill="#3a4654"/>
+    <circle cy="-8.5" r="1.6" fill="#3a4654"/>
+  </g>
+</svg>
